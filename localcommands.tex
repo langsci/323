@@ -5,8 +5,8 @@
 %ExPex stuff
 
 \newcommand{\pexcnn}{\pex[exno={~},exnoformat={X}]}  % pexc with no examplenumber and no increment
-\lingset{everygla=\normalfont,,{aboveglftskip=0pt}}
-\newcommand{\ptxt}[1]{\textbf{{#1}}\nopagebreak}\addvspace{1\baselineskip } % I like the legend above examples boldfaced, but I gather that LangSci doesn't — change this for non-boldface preambles
+\lingset{everygla=\normalfont,{aboveglftskip=0pt}}
+\newcommand{\ptxt}[1]{#1\par}
 \let\expexgla\gla
 \AtBeginDocument{\let\gla\expexgla\gathertags}
 
