@@ -58,15 +58,12 @@ Note that in \REF{shenbad}, the head nouns in both objects are identical (\texti
 	how-many Maria wrote {~} books and Jan read {~} articles\\
 	\glt `How many books did Maria write and how many articles did Jan read?'  (Polish, \citealt{Citko:2006} ex. 10a)
 \z 
-\cite{Citko:2006} assumes that ATB moved elements are necessarily base-generated using multi-dominance. As is shown in \REF{shenhowmany1} for \REF{shenbad} and \REF{shenex4} for \REF{shenatb2}, the DP modifiers, \textit{how many} and \textit{which}, are simultaneously merged with both object nouns, and then moved to the Spec,CP position.  
+\citet{Citko:2006} assumes that ATB moved elements are necessarily base-generated using multi-dominance. As is shown in \REF{shenhowmany1} for \REF{shenbad} and \REF{shenex4} for \REF{shenatb2}, the DP modifiers, \textit{how many} and \textit{which}, are simultaneously merged with both object nouns, and then moved to the Spec,CP position.  
 
-\begin{multicols}{2}
-
-\ea 
-\label{shenhowmany1} 
-structure of \REF{shenbad}: *\\
-\footnotesize
-\begin{forest}
+\begin{figure}\small
+\begin{floatrow}
+\captionsetup{margin=.05\linewidth}
+\ffigbox{\begin{forest}
 qtree edges
 	[CP
 		[Which$_1$, name=land]
@@ -112,15 +109,9 @@ qtree edges
 	]
 	\draw (dp.south) -- (t.north);
 %	\draw[->] (t.west) to [bend left=45] (land.south);
-\end{forest}
-
-
-\ex 
-\label{shenex4}
-structure of \REF{shenatb2}: OK \\
-\footnotesize
-\hspace{-2em}
-\begin{forest}
+\end{forest}}
+{\caption{\label{shenhowmany1}Structure of \REF{shenbad}: *}}
+\ffigbox{\begin{forest}
 qtree edges
 	[CP
 		[How many$_1$, name=land]
@@ -160,12 +151,12 @@ qtree edges
 	]
 	\draw (dp.south) -- (t.north);
 %		\draw[->] (t.south) to [bend left=80] (land.south);
-\end{forest}
-\z 
-\end{multicols}
+\end{forest}}
+        {\caption{Structure of \REF{shenatb2}: OK\label{shenex4}}}
+\end{floatrow}
+\end{figure}
 
-\largerpage[2]
-The contrast between the two derivations above needs to be accounted for: \REF{shenhowmany1} is not accepted while \REF{shenex4} is OK. The relevant difference is whether the nouns in the object DPs are identical or distinct. When they are distinct in \REF{shenex4}, the sentence is OK; when they are identical in \REF{shenhowmany1}, the sentence is out. To rule out \REF{shenhowmany1} and retain \REF{shenex4}, \cite{Citko:2006} proposes a constraint on multi-dominance structures where the shared material must be maximized. The structure with less shared material is ruled out if an alternative structure with more shared material is available. Regarding the pattern at hand, the structure in \REF{shenhowmany1} where only \textit{which} is shared is compared with the alternative in \REF{shenhowmany2} where the entire object \textit{how many books} is shared with \textit{how many} moving away. Given \REF{shenhowmany2}, the structure with less shared material in \REF{shenhowmany1} is ruled out. As predicted by this constraint, the sentence in \REF{shenhowmany2} is indeed better than \REF{shenbad}.\footnote{\cite{Citko:2006} assumes that the sentence in \REF{shenhowmany2} involves the movement of \textit{books} to a higher position. This is to keep in line with the linearization constraint of sharing which states that all shared elements must be moved to a non-shared position to be linearized (see also \citealt{Gracanin-Yuksek:2007}). I do not follow this assumption that the noun \textit{books} moves in \REF{shenhowmany2} as many other linearization algorithms (e.g. \citealt{Wilder:2008, deVries:2009, Gracanin-Yuksek:2013}) can linearize shared materials in situ.} Note that the structure in \REF{shenex4} is not ruled out since the head nouns are distinct thus the whole DP cannot be shared. 
+The contrast between the two derivations above needs to be accounted for: \REF{shenhowmany1} is not accepted while \REF{shenex4} is OK. The relevant difference is whether the nouns in the object DPs are identical or distinct. When they are distinct in \REF{shenex4}, the sentence is OK; when they are identical in \REF{shenhowmany1}, the sentence is out. To rule out \REF{shenhowmany1} and retain \REF{shenex4}, \citet{Citko:2006} proposes a constraint on multi-dominance structures where the shared material must be maximized. The structure with less shared material is ruled out if an alternative structure with more shared material is available. Regarding the pattern at hand, the structure in \REF{shenhowmany1} where only \textit{which} is shared is compared with the alternative in \REF{shenhowmany2} where the entire object \textit{how many books} is shared with \textit{how many} moving away. Given \REF{shenhowmany2}, the structure with less shared material in \REF{shenhowmany1} is ruled out. As predicted by this constraint, the sentence in \REF{shenhowmany2} is indeed better than \REF{shenbad}.\footnote{\citet{Citko:2006} assumes that the sentence in \REF{shenhowmany2} involves the movement of \textit{books} to a higher position. This is to keep in line with the linearization constraint of sharing which states that all shared elements must be moved to a non-shared position to be linearized (see also \citealt{Gracanin-Yuksek:2007}). I do not follow this assumption that the noun \textit{books} moves in \REF{shenhowmany2} as many other linearization algorithms (e.g. \citealt{Wilder:2008, deVries:2009, Gracanin-Yuksek:2013}) can linearize shared materials in situ.} Note that the structure in \REF{shenex4} is not ruled out since the head nouns are distinct thus the whole DP cannot be shared. 
 
 \ea[?]{
 	\label{shenhowmany2}
@@ -224,10 +215,10 @@ I will label this constraint of maximizing shared materials \textsc{MaxShare}. B
 \label{shensect:rnr}
 
 In addition to ATB LBE, another case of MaxShare is independently observed in NP RNR.
-\cite{Shen:2018a} discusses number marking on the head noun which is shared by two singular DPs as is shown in \REF{shennrnr}. 
+\citet{Shen:2018a} discusses number marking on the head noun which is shared by two singular DPs as is shown in \REF{shennrnr}. 
 For \REF{shennrnr:a}--\REF{shennrnr:c}, the head noun must be singular despite the subject refers to two individuals. 
 For \REF{shennrnr:d}, on the other hand, the singular head noun is not available. 
-This contrast is the focus of Chapter 2 of \cite{Shen:2018a}.
+This contrast is the focus of Chapter 2 of \citet{Shen:2018a}.
 
 \ea 
 	\label{shennrnr}
@@ -250,7 +241,7 @@ This contrast is the focus of Chapter 2 of \cite{Shen:2018a}.
 	\z 
 \z 
 \footnotetext{Note that the only relevant reading here is the one with two students. This is accomplished by the use of the predicate \textit{are a couple}. As a reviewer correctly noted, the singular head noun under possessive DPs is OK when referring to one single student: \textit{John's and Mary's student is tall}.}
-Shen proposes that the singular noun in (\REF{shennrnr:a}--\REF{shennrnr:c}) results from a multi-dominance structure in \REF{shenex7}. The number feature within a DP is assumed to originate on the \textsc{num} head and get copied onto other elements including nouns and determiners. When the noun is shared by two singular DPs, it gets two [\textsc{sg}] values, which, in languages like English, is spelled out as singular.\footnote{Other languages of this type include German, Dutch, Icelandic, Slovenian, Polish, Bosnia-Serbia-Croatian and so on. Bulgarian and Russian are different in this aspect. See \cite{Shen:2019} for discussion regarding this variation. I will focus on the English type of languages here.} 
+Shen proposes that the singular noun in (\REF{shennrnr:a}--\REF{shennrnr:c}) results from a multi-dominance structure in \REF{shenex7}. The number feature within a DP is assumed to originate on the \textsc{num} head and get copied onto other elements including nouns and determiners. When the noun is shared by two singular DPs, it gets two [\textsc{sg}] values, which, in languages like English, is spelled out as singular.\footnote{Other languages of this type include German, Dutch, Icelandic, Slovenian, Polish, Bosnia-Serbia-Croatian and so on. Bulgarian and Russian are different in this aspect. See \citet{Shen:2019} for discussion regarding this variation. I will focus on the English type of languages here.} 
 
 
 %The plural shared noun in \Last, on the other hand, results from a coordinated specifier structure in \NNext where only one plural Num head is involved, from which the noun gets that [\textsc{pl]}. Complex remnants like \textit{John's tall and Mary's short} and \textit{this tall and that short} are incompatible with the structure in \NNext since they would involve non-constituent coordination. The agreeing remnants like \textit{this and that} are also incompatible because the [\textsc{sg}] features on \textit{this} and \textit{that} cannot be valued by the [\textsc{pl}] Num head.
@@ -322,7 +313,6 @@ On the other hand, the fact that \textit{John's and Mary's} does not allow the s
 In \REF{shennp1}, the noun is shared and the \textsc{num}P is shared in \REF{shennp2}. 
 
 %\begin{multicols}{2}
-\newpage
 
 \ea 
 \label{shennp1}
@@ -402,7 +392,7 @@ Similar to Citko, Shen proposes a MaxShare constraint on the size of the shared 
 Shen claims that according to 
 \REF{shenform1}, the potential alternative structure in \REF{shenmax} where the Poss' is shared rules out the structures in \REF{shennp1} and \REF{shennp2}. 
 As one can see, the shared constituent in \REF{shenmax}, Poss', properly contains the ones shared in \REF{shennp1} and \REF{shennp2}.\footnote{The readers will notice that \REF{shenftn5exi} is OK where the head noun is plural under possessive DPs. 
-\cite{Shen:2018a} argues that \REF{shenftn5exi} involves a structure with a single DP with the conjoined possessors in its specifier position with a plural \textsc{num} head. 
+\citet{Shen:2018a} argues that \REF{shenftn5exi} involves a structure with a single DP with the conjoined possessors in its specifier position with a plural \textsc{num} head. 
 See Section \ref{shensect:ban} for discussion and \citealt{Shen:2018a} for more details.
 
 \ea 
@@ -441,7 +431,7 @@ qtree edges
 \end{forest}
 \z
 %start here
-Note that although the structure in \REF{shenmax} does not violate MaxShare, it must be ruled out as well since the string `John's and Mary's student' is not acceptable under the dual student reading. \cite{Shen:2018a} proposes that the structure in \REF{shenmax} is ruled out by an independent requirement on sharing: the Agree constraint, which requires the head of the shared element (Poss in \REF{shenmax}) agrees with the remnants (\textit{John's} and \textit{Mary's}). Since there is no agreement between the possessors and the Poss' or the Poss head, the structure in \REF{shenmax} is ruled out. I will follow this analysis here (see brief discussion in Section \ref{shensect:ban}).
+Note that although the structure in \REF{shenmax} does not violate MaxShare, it must be ruled out as well since the string `John's and Mary's student' is not acceptable under the dual student reading. \citet{Shen:2018a} proposes that the structure in \REF{shenmax} is ruled out by an independent requirement on sharing: the Agree constraint, which requires the head of the shared element (Poss in \REF{shenmax}) agrees with the remnants (\textit{John's} and \textit{Mary's}). Since there is no agreement between the possessors and the Poss' or the Poss head, the structure in \REF{shenmax} is ruled out. I will follow this analysis here (see brief discussion in Section \ref{shensect:ban}).
 %
 %The full structure of two coordinated DPs is shown in \Next. To derive the string `John's and Mary's student', three constituents can be potentially shared: Poss', NumP, and NP (in bold below). Structures that only share NumP and NP are blocked in violation of \Last, since a larger constituent, Poss', can be shared. 
 %
@@ -486,10 +476,10 @@ In sum, NP RNR in English and ATB LBE in Polish among other languages show suppo
 
 Having established the empirical motivations for a MaxShare constraint, this section discusses its different formulations. 
 
-The notion of \textit{size} in the formulation proposed by \cite{Shen:2018a} in \REF{shenform1} is defined in terms of domination. A derivation with a shared XP is compared with derivations where XP's mother or daughter nodes are shared. This formulation can account for both patterns discussed above: for ATB + LBE movement in Polish, derivations with a shared \textit{`how many'} and its mother node \textit{`how many books'} are compared; for NP RNR, derivations that share a NP, its mother node \textsc{num}P, and the mother node of \textsc{num}P, Poss', are compared. I will label this formulation as the \textit{dominance} MaxShare.
+The notion of \textit{size} in the formulation proposed by \citet{Shen:2018a} in \REF{shenform1} is defined in terms of domination. A derivation with a shared XP is compared with derivations where XP's mother or daughter nodes are shared. This formulation can account for both patterns discussed above: for ATB + LBE movement in Polish, derivations with a shared \textit{`how many'} and its mother node \textit{`how many books'} are compared; for NP RNR, derivations that share a NP, its mother node \textsc{num}P, and the mother node of \textsc{num}P, Poss', are compared. I will label this formulation as the \textit{dominance} MaxShare.
 
-\cite{Citko:2006}, on the other hand, offers a more derivational conception of MaxShare. According to her, MaxShare follows from a general economy principle. The derivations being compared are restricted by their numerations: given two numerations with the same set of lexical items, the numeration where a given lexical item is selected fewer times is more economical. For example, \REF{shenshenex12} illustrates the numerations involved in \REF{shenhowmany1} and \REF{shenhowmany2} with English translation. Each numeration include the set of items that are used in the derivation and the indexes indicate the number of times that each item is selected. The only difference between them is that \textit{books} is selected twice in \REF{shenshenex12:a} and only once in \REF{shenshenex12:b}. \REF{shenshenex12:b} is more economical and \REF{shenshenex12:a} is blocked as a result. 
-The pattern in NP RNR can also be accounted for in this manner, see \cite{Shen:2018a} p104. I will refer to this formulation as the \textit{numeration} MaxShare.
+\citet{Citko:2006}, on the other hand, offers a more derivational conception of MaxShare. According to her, MaxShare follows from a general economy principle. The derivations being compared are restricted by their numerations: given two numerations with the same set of lexical items, the numeration where a given lexical item is selected fewer times is more economical. For example, \REF{shenshenex12} illustrates the numerations involved in \REF{shenhowmany1} and \REF{shenhowmany2} with English translation. Each numeration include the set of items that are used in the derivation and the indexes indicate the number of times that each item is selected. The only difference between them is that \textit{books} is selected twice in \REF{shenshenex12:a} and only once in \REF{shenshenex12:b}. \REF{shenshenex12:b} is more economical and \REF{shenshenex12:a} is blocked as a result. 
+The pattern in NP RNR can also be accounted for in this manner, see \citet{Shen:2018a} p104. I will refer to this formulation as the \textit{numeration} MaxShare.
 
 \ea 
 	\label{shenshenex12}
@@ -506,8 +496,7 @@ Both the dominance and the numeration formulation can account for the data prese
 But the two formulations make different predictions regarding \textit{bulk} and \textit{non-bulk} sharing. 
 Specifically, the dominance MaxShare is only applicable to bulk sharing while the numeration MaxShare is compatible with both bulk and non-bulk sharing. 
 
-\largerpage
-\cite{Gracanin-Yuksek:2007} introduces the distinction between bulk and non-bulk sharing.\footnote{\cite{Gracanin-Yuksek:2007} proposes constraints on non-bulk sharing as well as linearization of sharing structure which I will leave aside here.} 
+\citet{Gracanin-Yuksek:2007} introduces the distinction between bulk and non-bulk sharing.\footnote{\citet{Gracanin-Yuksek:2007} proposes constraints on non-bulk sharing as well as linearization of sharing structure which I will leave aside here.} 
 Bulk sharing refers to structures where one constituent (including its daughter nodes and so on) is shared. 
 All examples of ATB LBE and NP RNR we have seen so far involve bulk sharing. 
 In ATB LBE, it is the object DP or the modifier of the DP that is shared whereas in NP RNR, it is the NP, \textsc{num}P or the Poss' node that is shared. 
@@ -599,7 +588,7 @@ qtree edges
 
 
 %
-%\cite{Gracanin-Yuksek:2007} makes the distinction between bulk and non-bulk sharing. See a minimal pair in \Next. Both derivations involve the string \textit{X$_1$ and X$_2$ Y ZP}, however, in \Next[a], the YP is shared as a whole whereas in \Next[b] it is the daughter nodes of YP, namely Y and ZP, that are shared respectively. 
+%\citet{Gracanin-Yuksek:2007} makes the distinction between bulk and non-bulk sharing. See a minimal pair in \Next. Both derivations involve the string \textit{X$_1$ and X$_2$ Y ZP}, however, in \Next[a], the YP is shared as a whole whereas in \Next[b] it is the daughter nodes of YP, namely Y and ZP, that are shared respectively. 
 %
 %\begin{multicols}{2}
 %
@@ -709,9 +698,9 @@ qtree edges
 
 In other words, the numeration MaxShare predicts that once one constituent is shared, all other shareable constituents must be shared as well, even these shareable constituents do not dominate each other. Here I discuss examples with ATB LBE and gapping.
 As is discussed above, ATB LBE has been argued to involve sharing. 
-Similarly, the sole verb in gapping has been argued to be structurally shared by \cite{Citko:2011}, 
+Similarly, the sole verb in gapping has been argued to be structurally shared by \citet{Citko:2011}, 
 %Citko2006a,
-but see \cite{Citko:2018}.
+but see \citet{Citko:2018}.
 
  
 The crucial contrast is shown in \REF{shengapAtb}.  
@@ -739,7 +728,7 @@ As we can see, \REF{shengapAtb:a} is acceptable and \REF{shengapAtb2} is not.
 %how-many Maria read.\textsc{fem} {} books and Jan read.\textsc{masc} {} reviews?\\
 %`How many books did Maria read and how many books did Jan read?'
 
-The structures are illustrated in \REF{shenex16} with English translation.\footnote{The shared verb is assumed to move to a higher node in \cite{Citko:2011}'s proposal. 
+The structures are illustrated in \REF{shenex16} with English translation.\footnote{The shared verb is assumed to move to a higher node in \citet{Citko:2011}'s proposal. 
 %Citko2006a,
 Here I kept the verb at the shared position to better illustrate the fact that the verb is shared.}
 In the structure for \REF{shengapAtb:a} in \REF{shenex16:a}, both the pre-nominal modifier and the verb are shared, the sentence is accepted. 
@@ -872,7 +861,7 @@ So far I have been implicitly assuming that only one of the two formulations exi
 	}
 	\z 
 \z 
-One possible explanation for the degraded but accepted status of \REF{shenex18:a} and \REF{shengapAtb2}, both of which violate the numeration MaxShare, is that the numeration MaxShare is a violable constraint and does not immediately cause a derivation to crash. On the other hand, the unacceptability in NP RNR in \REF{shennrnr} (repeated here as \REF{shenex19}) is quite strong. \cite{Shen:2018a} reports experimental results using judgments on a 7 point Likert scale from 45 participants and show that \REF{shenex19} which involves a MaxShare violation has a mean rating of 2.33 out of 7. Note that \REF{shenex19} violates the dominance MaxShare (and by entailment, also the numeration MaxShare). 
+One possible explanation for the degraded but accepted status of \REF{shenex18:a} and \REF{shengapAtb2}, both of which violate the numeration MaxShare, is that the numeration MaxShare is a violable constraint and does not immediately cause a derivation to crash. On the other hand, the unacceptability in NP RNR in \REF{shennrnr} (repeated here as \REF{shenex19}) is quite strong. \citet{Shen:2018a} reports experimental results using judgments on a 7 point Likert scale from 45 participants and show that \REF{shenex19} which involves a MaxShare violation has a mean rating of 2.33 out of 7. Note that \REF{shenex19} violates the dominance MaxShare (and by entailment, also the numeration MaxShare). 
 
 \ea[*]{
 	\label{shenex19}
@@ -916,10 +905,9 @@ Following this pattern, one might expect sentences that share \textit{no} potent
 \z 
 This restriction is difficult to derive from the dominance MaxShare. One would have to stipulate that the structures being compared are restricted to ones that share at least one element. However, there is a way for the numeration MaxShare to account for this restriction. 
 
-In the implementation of the numeration MaxShare presented so far, the entire utterance including the conjunction phrase is assumed to share one numeration, as is illustrated above in \REF{shennum}. In order to account for \REF{shenex21}, we need to further break down the derivation. In the multiple spell-out model proposed by \cite{Uriagereka:1999a, Chomsky:2000} , numeration, derivation, and spell-out occur in phases. \cite{Oda:2017} proposes that the \&P and its conjuncts are phases to account for the cross-linguistic patterns of the Coordinate Structure Constraint. 
+In the implementation of the numeration MaxShare presented so far, the entire utterance including the conjunction phrase is assumed to share one numeration, as is illustrated above in \REF{shennum}. In order to account for \REF{shenex21}, we need to further break down the derivation. In the multiple spell-out model proposed by \citet{Uriagereka:1999a, Chomsky:2000} , numeration, derivation, and spell-out occur in phases. \citet{Oda:2017} proposes that the \&P and its conjuncts are phases to account for the cross-linguistic patterns of the Coordinate Structure Constraint. 
 As a result, each conjunct corresponds to a numeration (or a sub-array) and the comparison of numerations is restricted within phases. The combination of these assumptions correctly rules in sentences in \REF{shenex21} while maintaining the effect of MaxShare. 
 
-\largerpage[2]
 Take NP RNR for an example. In \REF{shenex22} where there is no sharing between the two conjuncts, each conjunct, being a phase, corresponds to a numeration. The \&P also corresponds to a numeration which includes DP1, DP2, and the conjunction head \textit{and}.  In \REF{shenex23}, on the other hand, since some elements are shared by the two conjuncts, the whole conjunction phrase has one numeration. Given that they contain the same set of lexical items, Numeration1 and Numeration2 in \REF{shenex23} are compared and the second numeration is less economical since it involves the Poss head being extracted twice. Thus Numeration2 is ruled out. The crucial point here is that Numeration1 and Numeration2 are compared with each other and not with the numerations in \REF{shenex22}, because none of the numerations in \REF{shenex22} contains the same set of lexical items as the ones in \REF{shenex23}. 
 
 \ea 
@@ -939,7 +927,7 @@ Numeration$_{\&P}$: [and$_1$, DP1, DP2]
 \z 
 \z 
 
-The claim here is that only the set of numerations that meet certain conditions are compared in terms of economy. One such condition is that these numerations must contain the same set of unique lexical items. They can, however, differ in the number of `copies' of the lexical items.\footnote{This restriction on MaxShare is by no means the only restriction. \cite{Shen:2018a} briefly discusses an interpretative restriction on MaxShare (Section 2.6.2):  the structures being compared must be of the same interpretation. The evidence is shown in \REF{shenftn8exi}. The sentence in \REF{shenftn8exi} is ambiguous between \REF{shenftn8exi:a} where \textit{tall} is not shared, and \REF{shenftn8exi:b} where \textit{tall} is shared. If MaxShare does not care about interpretations, the interpretation in \REF{shenftn8exi:a} should not be available since it involves a structure where less material is shared than in the structure that generates \REF{shenftn8exi:b}.
+The claim here is that only the set of numerations that meet certain conditions are compared in terms of economy. One such condition is that these numerations must contain the same set of unique lexical items. They can, however, differ in the number of `copies' of the lexical items.\footnote{This restriction on MaxShare is by no means the only restriction. \citet{Shen:2018a} briefly discusses an interpretative restriction on MaxShare (Section 2.6.2):  the structures being compared must be of the same interpretation. The evidence is shown in \REF{shenftn8exi}. The sentence in \REF{shenftn8exi} is ambiguous between \REF{shenftn8exi:a} where \textit{tall} is not shared, and \REF{shenftn8exi:b} where \textit{tall} is shared. If MaxShare does not care about interpretations, the interpretation in \REF{shenftn8exi:a} should not be available since it involves a structure where less material is shared than in the structure that generates \REF{shenftn8exi:b}.
 
 \ea 
 	\label{shenftn8exi}
@@ -961,7 +949,7 @@ The claim here is that only the set of numerations that meet certain conditions 
 \subsection{Ban on string vacuous multi-dominance in NP Right Node Raising}
 \label{shensect:ban}
 
-This section explores an alternative to MaxShare to account for patterns of NP RNR. Evidence for MaxShare from NP RNR comes from the unacceptability of \REF{shensvs}. \cite{Shen:2018a} argues that the singular marking on the shared noun requires multi-dominance and the unacceptability of \REF{shensvs} indicates that a multidominance structure is ruled out. As mentioned above, the account proposed in \cite{Shen:2018a} involves two constraints on multi-dominance: one is MaxShare, and the other is an Agree requirement where the shared element and the sharing elements must agree. We have seen how MaxShare rules out structures that would generate \REF{shensvs} in the discussion above. The Agree requirement rules out the structure that does not violate MaxShare. In the structure in \REF{shenmax}, the largest shareable constituent \textsc{Poss'} is shared in accordance with MaxShare, however, this structure is ruled out because there is no agreement relation between the possessors \textit{John's} and \textit{Mary's} and the shared \textsc{Poss} head.
+This section explores an alternative to MaxShare to account for patterns of NP RNR. Evidence for MaxShare from NP RNR comes from the unacceptability of \REF{shensvs}. \citet{Shen:2018a} argues that the singular marking on the shared noun requires multi-dominance and the unacceptability of \REF{shensvs} indicates that a multidominance structure is ruled out. As mentioned above, the account proposed in \citet{Shen:2018a} involves two constraints on multi-dominance: one is MaxShare, and the other is an Agree requirement where the shared element and the sharing elements must agree. We have seen how MaxShare rules out structures that would generate \REF{shensvs} in the discussion above. The Agree requirement rules out the structure that does not violate MaxShare. In the structure in \REF{shenmax}, the largest shareable constituent \textsc{Poss'} is shared in accordance with MaxShare, however, this structure is ruled out because there is no agreement relation between the possessors \textit{John's} and \textit{Mary's} and the shared \textsc{Poss} head.
 
 \ea 
 \label{shensvs}
@@ -992,7 +980,7 @@ qtree edges
 	\draw (possp.south) -- (shared.north);
 \end{forest}
 \z
-\REF{shensvs} contrasts with the sentence in \REF{shenex25} where the head noun is plural. \cite{Shen:2018a} argues that the plural noun indicates a different structure, illustrated below: \textit{John's} and \textit{Mary's} are conjoined in the Spec,DP position. No sharing/multidominance is involved. 
+\REF{shensvs} contrasts with the sentence in \REF{shenex25} where the head noun is plural. \citet{Shen:2018a} argues that the plural noun indicates a different structure, illustrated below: \textit{John's} and \textit{Mary's} are conjoined in the Spec,DP position. No sharing/multidominance is involved. 
 
 \ea 
 \label{shenex25}
@@ -1030,7 +1018,6 @@ The motivation behind the Agree requirement and MaxShare is to rule out \REF{she
 \z 
 The idea behind \REF{shenban} is that the option of sharing can only be entertained if the string cannot be generated otherwise. From this perspective, sharing is used as a last resort operation. Let's see how the \textsc{ban} in \REF{shenban} can rule out \REF{shensvs}. In the string \textit{John's and Mary's X}, there are at least two possible parses shown in \REF{shenex27}. \REF{shenex27:a} is a parse with a shared X while \REF{shenex27:b} involves conjoined specifiers and no sharing. The \textsc{Ban} in \REF{shenban} states that the \REF{shenex27:a} is ruled out since \REF{shenex27:b} is available. Thus this constraint alone can replace both MaxShare and the Agree requirement.
 
-\newpage
 \ea 
 \label{shenex27}
 John's and Mary's X
@@ -1113,7 +1100,6 @@ qtree edges
 		[student]
 	]
 \end{forest}
-\newpage
 \ex 
 \label{shenex28:b}
 ~\\\footnotesize
@@ -1152,7 +1138,7 @@ A brief discussion of the alternative non-sharing structures is in order. The tw
 
 Based on its formulation, the effect of the \textsc{Ban} should be observed when two conditions are met: 1. a string that can be generated via sharing and a non-sharing structure. 2. a telltale indication of which structure is being used. In the case discussed above, the string of `John's and Mary's N' can be generated via sharing of the N or the conjoined Possessor analysis. The telltale sign is the number marking on the noun: when the phrase refers to two individuals, sharing requires the noun to be singular and the conjoined Possessor analysis requires the noun to be plural. As we saw in the case of NP RNR, the availability of the conjoined possessor structure (indicated by the plural noun) blocked sharing (as indicated by the unavailability of the singular noun).
 
-Another case where these conditions are met is in \REF{shenex29}, which also has two potential structures. \REF{shenex29:a} illustrates one where the T' is shared and \REF{shenex29:b} illustrates one that does not involve sharing but the conjunction of the subjects. The telltale sign to differentiate the two structure is the number marking on the verb. According to \cite{Kluck:2009, Grosz:2015, Shen:2019}, the structure in \REF{shenex29:a} is compatible with both the singular and the plural auxiliary whereas the conjoined subject in \REF{shenex29:b} requires the auxiliary to be plural. As is shown in \REF{shenex29}, only the plural auxiliary is available, which indicates that the sharing structure \REF{shenex29:a} is ruled out while the non-sharing structure \REF{shenex29:b} is ruled in. This is expected from the \textsc{Ban}.
+Another case where these conditions are met is in \REF{shenex29}, which also has two potential structures. \REF{shenex29:a} illustrates one where the T' is shared and \REF{shenex29:b} illustrates one that does not involve sharing but the conjunction of the subjects. The telltale sign to differentiate the two structure is the number marking on the verb. According to \citet{Kluck:2009, Grosz:2015, Shen:2019}, the structure in \REF{shenex29:a} is compatible with both the singular and the plural auxiliary whereas the conjoined subject in \REF{shenex29:b} requires the auxiliary to be plural. As is shown in \REF{shenex29}, only the plural auxiliary is available, which indicates that the sharing structure \REF{shenex29:a} is ruled out while the non-sharing structure \REF{shenex29:b} is ruled in. This is expected from the \textsc{Ban}.
 
 \ea 
 \label{shenex29}
@@ -1289,7 +1275,7 @@ qtree edges
 \end{multicols}
 \z 
 
-The blocking nature of the \textsc{Ban} predicts there to be no overlapping distribution of the two structures: when the non-sharing structure is available, the sharing structure is blocked; only when the non-sharing structure is not available does the sharing structure emerge. This predicts complementary distribution of the two structures, i.e. one string cannot optionally show telltale signs for both structures. This is borne out for the cases we have seen in English. In a given string of NP RNR in \REF{shenex32}, either the singular or the plural shared noun is allowed, but not both. The complementary distribution in NP RNR is also observed in all the languages reported in \cite{Shen:2018a} including Brazilian Portuguese, Cypriot Greek, Dutch, English, German, Icelandic, Italian, Polish, Serbo-Croatian, and Slovenian, Spanish. 
+The blocking nature of the \textsc{Ban} predicts there to be no overlapping distribution of the two structures: when the non-sharing structure is available, the sharing structure is blocked; only when the non-sharing structure is not available does the sharing structure emerge. This predicts complementary distribution of the two structures, i.e. one string cannot optionally show telltale signs for both structures. This is borne out for the cases we have seen in English. In a given string of NP RNR in \REF{shenex32}, either the singular or the plural shared noun is allowed, but not both. The complementary distribution in NP RNR is also observed in all the languages reported in \citet{Shen:2018a} including Brazilian Portuguese, Cypriot Greek, Dutch, English, German, Icelandic, Italian, Polish, Serbo-Croatian, and Slovenian, Spanish. 
 
 \ea 
 	\label{shenex32}
@@ -1303,7 +1289,7 @@ The blocking nature of the \textsc{Ban} predicts there to be no overlapping dist
 \subsection{Can the ban on string vacuous sharing replace MaxShare}
 \label{shensect:replace}
 
-I have shown that the \textsc{Ban} can replace MaxShare and the Agree requirement in NP RNR. Now we look at whether it can replace MaxShare in the ATB LBE and gapping paradigm discussed in \cite{Citko:2006} and earlier in this paper.
+I have shown that the \textsc{Ban} can replace MaxShare and the Agree requirement in NP RNR. Now we look at whether it can replace MaxShare in the ATB LBE and gapping paradigm discussed in \citet{Citko:2006} and earlier in this paper.
 
 First, let's look at the ATB LBE data in \REF{shenex33} (repeated from \REF{shenbad} and \REF{shenatb2}). 
 Both sentences involve two conjoined TPs and one adjective shared by two NPs (indicated by the traces). 
@@ -1344,11 +1330,11 @@ The sharing analysis of gapping involves conjunction of vPs and sharing of the v
 	}
 	\z 
 \z 
-The positive note is that the Ban is compatible with the paradigm above in that it does not rule out the acceptable sentences; however, it also does not help accounting for \REF{shenbad2} and \REF{shenex34b}. MaxShare as proposed by \cite{Citko:2006} is still needed and cannot be replaced by the \textsc{Ban}. This result is not surprising, since the \textsc{Ban} only rules out a sharing structure in the face of a non-sharing one. What MaxShare accomplishes is choosing between two sharing structures, with one sharing more materials than the other. So far, I have shown that MaxShare can account for all the data in ATB LBE noted so far and part of the NP RNR paradigm, while the Ban can account for all the data in NP RNR but not ATB LBE. Considering both ATB LBE and NP RNR, MaxShare is needed plus either the Agree requirement or the \textsc{Ban}. The answer to `can the \textsc{Ban} replace MaxShare' is NO. It turns out that it's not MaxShare that the Ban can potentially replace but the Agree requirement. With MaxShare independently motivated, now the question becomes whether to retain the Agree requirement as in \cite{Shen:2018a} or to replace it with the ban on string vacuous sharing. I will leave this question for future research.
+The positive note is that the Ban is compatible with the paradigm above in that it does not rule out the acceptable sentences; however, it also does not help accounting for \REF{shenbad2} and \REF{shenex34b}. MaxShare as proposed by \citet{Citko:2006} is still needed and cannot be replaced by the \textsc{Ban}. This result is not surprising, since the \textsc{Ban} only rules out a sharing structure in the face of a non-sharing one. What MaxShare accomplishes is choosing between two sharing structures, with one sharing more materials than the other. So far, I have shown that MaxShare can account for all the data in ATB LBE noted so far and part of the NP RNR paradigm, while the Ban can account for all the data in NP RNR but not ATB LBE. Considering both ATB LBE and NP RNR, MaxShare is needed plus either the Agree requirement or the \textsc{Ban}. The answer to `can the \textsc{Ban} replace MaxShare' is NO. It turns out that it's not MaxShare that the Ban can potentially replace but the Agree requirement. With MaxShare independently motivated, now the question becomes whether to retain the Agree requirement as in \citet{Shen:2018a} or to replace it with the ban on string vacuous sharing. I will leave this question for future research.
 
 \subsection{Another alternative} 
 
-The \textsc{Ban} is by no means the only potential alternative to MaxShare. Another possible alternative that I do not have space to discuss here beyond several sentences is related to the contrast conditions on ellipsis proposed in \cite{Hartmann:2000, Hartmann:2003, Fery:2005a}. Although the original proposals are meant for ellipsis, the phenomena the proposed conditions cover include RNR and gapping, largely overlapping with MaxShare. \cite{Hartmann:2000, Hartmann:2003} argues that RNR is derived from phonetic deletion rather than multi-dominance, and that phonetic deletion requires the preceding materials to be contrastive. In addition, a \textit{Maximal Contrast Principle} in \REF{shenMCP} is proposed for gapping, which is very similar in essence to MaxShare. I will group the various conditions proposed in these works and label them as \textit{contrastive conditions}.
+The \textsc{Ban} is by no means the only potential alternative to MaxShare. Another possible alternative that I do not have space to discuss here beyond several sentences is related to the contrast conditions on ellipsis proposed in \citet{Hartmann:2000, Hartmann:2003, Fery:2005a}. Although the original proposals are meant for ellipsis, the phenomena the proposed conditions cover include RNR and gapping, largely overlapping with MaxShare. \citet{Hartmann:2000, Hartmann:2003} argues that RNR is derived from phonetic deletion rather than multi-dominance, and that phonetic deletion requires the preceding materials to be contrastive. In addition, a \textit{Maximal Contrast Principle} in \REF{shenMCP} is proposed for gapping, which is very similar in essence to MaxShare. I will group the various conditions proposed in these works and label them as \textit{contrastive conditions}.
 
 \ea 
 	\label{shenMCP}
@@ -1357,18 +1343,18 @@ The \textsc{Ban} is by no means the only potential alternative to MaxShare. Anot
 	\z 
 
 
-Assuming that ATB movements are subject to contrast conditions of the same nature, the contrast is required not only on the material preceding the shared element but also the materials following it to account for the ATB LBE data in \REF{shenatb1} and \REF{shenatb2} from \cite{Citko:2006}. The interaction of ATB movement and gapping shown in \REF{shengapAtb} where one requires the other can be accounted for as well by applying \REF{shenMCP} to ATB and gapping. 
+Assuming that ATB movements are subject to contrast conditions of the same nature, the contrast is required not only on the material preceding the shared element but also the materials following it to account for the ATB LBE data in \REF{shenatb1} and \REF{shenatb2} from \citet{Citko:2006}. The interaction of ATB movement and gapping shown in \REF{shengapAtb} where one requires the other can be accounted for as well by applying \REF{shenMCP} to ATB and gapping. 
 
 Regarding NP RNR, requiring the materials preceding the shared noun to be contrastive can correctly rule out \REF{shennp1} and \REF{shennp2}. However, something like the Agree requirement or the \textsc{Ban} is still needed in addition to rule out the structure in \REF{shenmax}. Since \textit{John's} and \textit{Mary's} are contrastive, but as we have learned, sharing of the noun phrase following these contrasting elements is disallowed. 
 
-Further research is needed to thoroughly evaluate whether the contrastive conditions can replace MaxShare in general. For example, \cite{Hartmann:2000} proposes that the domain of application of the condition in \REF{shenMCP} is the phonological phrase. It remains to be seen whether such restrictions are the same when the condition is applied to ATB and NP RNR.  The full paradigm including ATB, gapping, and NP RNR can be accounted for by different combinations of the conditions/constraints discussed in this paper: MaxShare, the Agree requirement on sharing, and the two alternatives presented in this section. Pros and cons of each combination require careful investigation that goes beyond this paper.
+Further research is needed to thoroughly evaluate whether the contrastive conditions can replace MaxShare in general. For example, \citet{Hartmann:2000} proposes that the domain of application of the condition in \REF{shenMCP} is the phonological phrase. It remains to be seen whether such restrictions are the same when the condition is applied to ATB and NP RNR.  The full paradigm including ATB, gapping, and NP RNR can be accounted for by different combinations of the conditions/constraints discussed in this paper: MaxShare, the Agree requirement on sharing, and the two alternatives presented in this section. Pros and cons of each combination require careful investigation that goes beyond this paper.
 
 \section{Summary}
 \label{shensect:summary}
 
 This paper discussed three aspects of MaxShare: its formulation, its restrictions, and possible alternatives. We have seen that the numeration formulation of MaxShare is more empirically powerful in ruling out sentences and less stipulative regarding the motivation of such a constraint on sharing. At the same time, the effects of the numeration MaxShare seems less robust within or across languages than that of the dominance MaxShare. I have also shown that the effects of MaxShare need to be restricted within structures that involves sharing in the first place. Lastly, the ban on string vacuous sharing, a potential alternative to MaxShare, turns out to be successful for NP RNR but not for other cases of sharing. 
 
-In this paper, I was only able to scratch the surface of these issues, which all deserve more detailed, cross-linguistic research. One promising direction is on the locality of MaxShare, i.e. the domain within which MaxShare is enforced. MaxShare states that the shared materials within a domain must be maximized, in other words, if one element is shared in this domain, all other shareable elements must be shared as well.  The locality question is how far the two shared elements can be for one to trigger the sharing of the other. The cases we have been looking at are limited in this aspect. In NP RNR, the domain of MaxShare is within two conjoined DPs: the sharing of the head noun triggered the sharing of the Poss head and the \textsc{num} head within the DP. In ATB LBE cases, the domain is within two conjoined matrix clauses: sharing of the adjective of the objects triggers sharing of the verb via gapping. We have not seen long distance triggering where, for example, the sharing of the \textit{embedded} object forces gapping of the \textit{matrix} verb. We also have not seen triggering across islands or other boundaries proposed in the literature.\footnote{An assumption made in Section \REF{shensect:ban} is that numerations are evaluated phase by phase. It follows then that the MaxShare effects should be confined within phases. However, this is not compatible with the interaction of ATB of adjectives of the objects and the gapping of the verb discussed in \cite{Citko:2006}.} To address this question, one interesting project would be to look at the interaction of MaxShare, a constraint on size of shared constituents, and clausal complements of different sizes. 
+In this paper, I was only able to scratch the surface of these issues, which all deserve more detailed, cross-linguistic research. One promising direction is on the locality of MaxShare, i.e. the domain within which MaxShare is enforced. MaxShare states that the shared materials within a domain must be maximized, in other words, if one element is shared in this domain, all other shareable elements must be shared as well.  The locality question is how far the two shared elements can be for one to trigger the sharing of the other. The cases we have been looking at are limited in this aspect. In NP RNR, the domain of MaxShare is within two conjoined DPs: the sharing of the head noun triggered the sharing of the Poss head and the \textsc{num} head within the DP. In ATB LBE cases, the domain is within two conjoined matrix clauses: sharing of the adjective of the objects triggers sharing of the verb via gapping. We have not seen long distance triggering where, for example, the sharing of the \textit{embedded} object forces gapping of the \textit{matrix} verb. We also have not seen triggering across islands or other boundaries proposed in the literature.\footnote{An assumption made in Section \REF{shensect:ban} is that numerations are evaluated phase by phase. It follows then that the MaxShare effects should be confined within phases. However, this is not compatible with the interaction of ATB of adjectives of the objects and the gapping of the verb discussed in \citet{Citko:2006}.} To address this question, one interesting project would be to look at the interaction of MaxShare, a constraint on size of shared constituents, and clausal complements of different sizes. 
 
 \section*{Acknowledgements}
 
