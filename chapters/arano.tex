@@ -111,7 +111,7 @@ If a linearization statement 〈α, α〉 is generated, the derivation crashes.
 Following \citet{Chomsky:1995,Chomsky:2000,Chomsky:2001a}, Richards assumes that trees created by syntax do not have information on linear order, and they are linearized via a version of Linear Correspondence Axiom \citep{Kayne:1994} at the point of Spell-Out. Moreover, he adopts the framework of Distributed Morphology \citep{Halle:1993b, Marantz:1996, Embick:2007}, where functional heads are associated with their phonological features via post-syntactic late insertion. Under this model of grammar, linearization of syntactic objects occurs prior to the assignment of phonological information to functional elements. It is then expected that different functional heads of the same type cannot be distinguished and may be regarded as the same syntactic object due to their scarcity of features that may be useful to differentiate them from each other. For concreteness consider the situation in which Spell-Out applies to the whole structure in \figref{fig:aranodist ex}, in which two instances of functional category $\upalpha$ are present.
 
 \begin{figure}
-\caption{{\color{red}Please provide a caption}\label{fig:aranodist ex}}
+\caption{Structure with a Distinctness violation\label{fig:aranodist ex}}
 \begin{forest} for tree={minimum size=1.5em, inner sep=1pt} 
 [XP, nice empty nodes [$\upalpha$, draw, circle] [  [\ldots]  [ [$\upalpha$, draw, circle]       [\ldots]    ]         ]    ]
 \end{forest}
@@ -130,7 +130,7 @@ They're talking about {\ob}that they need to leave{\cb}.\\\upshape \citep[137]{R
 \noindent To account for the ungrammaticality of (\ref{aranoCR1}) in terms of Distinctness, Richards assumes the structure in \figref{fig:aranoCR2} and adopts two assumptions. First, P is not a phase head when taking CP-complements. Second, following \citet{Emonds:1985}, prepositions and complementizers are effectively of the same category, hence we cannot have P and C in a single Spell-Out domain. 
 
 \begin{figure}
-\caption{\color{red}Please provide a caption\label{fig:aranoCR2}}
+\caption{The PP of \REF{aranoCR1}\label{fig:aranoCR2}}
 \begin{forest}
 for tree={minimum size=1.5em, inner sep=1pt} 
 [PP [P, draw, circle [about]]   [CP [C, draw, circle [that]]   [TP, name=yp  [they need to leave, roof]]     ]   ]
@@ -153,7 +153,7 @@ They’re talking about {\ob}what they should buy{\cb}. \\ \upshape \citep[139]{
 
 
 \begin{figure} 
-\caption{\color{red}Please provide a caption\label{fig:aranoCR3}}
+\caption{The PP of \REF{aranoCR4} in the standard analysis\label{fig:aranoCR3}}
 \begin{forest}
 for tree={minimum size=1.5em, inner sep=1pt} 
 [PP [P, draw, circle [about]]   [CP [DP [what, roof]]  [\Xbar{C}   [C, draw, circle]    [TP, name=yp  [they should buy, roof]]     ]   ] ]
@@ -189,7 +189,7 @@ In many cases there is a question whether there is a code violation. \\
 
 
 \begin{figure} 
-\caption{\color{red}Please provide a caption\label{fig:aranoCR6}}
+\caption{The PP of \REF{aranoCR5a} in the standard analysis\label{fig:aranoCR6}}
 \begin{forest} 
 for tree={minimum size=1.5em, inner sep=1pt} 
 [PP [P, draw, circle [about]]   [CP [PP [P, draw, circle [with]] [DP [whom, roof]]  ]  [\Xbar{C}   [C, draw, circle]    [TP, name=yp  [they should discuss this, roof]]     ]   ] ]
@@ -205,7 +205,7 @@ Given the Distinctness-based account of (\ref{aranoCR5a}), the question arises w
 First, declarative clauses take no specifier. Therefore, TP-complements of C are Spell-Out domains. Case resistance effects for declarative clauses then are expected given the structure in \figref{fig:aranoCR2}. Second, interrogative clauses involve ``spec-head agreement" with \wh-phrases. Thus, ``intermediate projections'' of C undergo Spell-Out. \figref{fig:aranoCR7} is the structure for (\ref{aranoCR4}).
 
 \begin{figure} 
-\caption{\color{red}Please provide a caption\label{fig:aranoCR7}}
+\caption{The PP of \REF{aranoCR4} in the proposed analysis\label{fig:aranoCR7}}
 \begin{forest}
 for tree={minimum size=1.5em, inner sep=1pt} 
 [PP [P, draw, circle [about]]   [CP [DP [what, roof]]  [\Xbar{C}, name=yp   [C, draw, circle]    [TP  [they should buy, roof]]     ]   ] ]
@@ -219,7 +219,7 @@ for tree={minimum size=1.5em, inner sep=1pt}
 Crucially, the present analysis puts the phase head C into the Spell-Out domain with its complement. This separates the preposition and the complementizer into different Spell-Out domains, avoiding a violation of Distinctness. The absence of case resistance effects for interrogative clauses is thus also correctly predicted. Finally, consider (\ref{aranoCR5a}). The present analysis gives it the structure in \figref{fig:aranoCR8}.
 
 \begin{figure} 
-\caption{\color{red}Please provide a caption\label{fig:aranoCR8}}
+\caption{The PP of \REF{aranoCR5a} in the proposed analysis\label{fig:aranoCR8}}
 \begin{forest} 
 for tree={minimum size=1.5em, inner sep=1pt} 
 [PP [P, draw, circle [about]]   [CP [PP [P, draw, circle [with]] [DP [whom, roof]]  ]  [\Xbar{C}, name=yp   [C, draw, circle]    [TP  [they should discuss this, roof]]     ]   ] ]
@@ -259,14 +259,14 @@ It should be noted that my analysis allows an interrogative clause to occur as a
 \begin{forest}
 [CP [whether] [\Xbar{C} [C]     [TP [\ldots, roof]]     ]]
 \end{forest}
-\caption{}
+\caption{\textit{whether}}
 \end{subfigure}\begin{subfigure}[b]{.5\linewidth}\centering
 \begin{forest}
 [CP [C [if]]     [TP [\ldots, roof]]     ]
 \end{forest}
-\caption{\label{fig:aranowhether-if strb}}
+\caption{\textit{if}\label{fig:aranowhether-if strb}}
 \end{subfigure}
-\caption{\color{red}Please provide captions\label{fig:aranowhether-if str}}
+\caption{Structures of \textit{whether}- and \textit{if}-clauses\label{fig:aranowhether-if str}}
 \end{figure}
 
 \emph{Whether} occupies a specifier of C which requires its specifier to be a \wh-phrase. This kind of C does not impose selectional restrictions on the finiteness of TP. \emph{If} is a complementizer and needs to take a finite clause as its complement as its selectional restrictions. What is the most important difference on these structures in the present discussion is that the \emph{whether}-clause involves ``spec-head agreement,'' whereas \emph{if}-clause does not. This difference leads to the prediction that  \emph{whether}-clauses, but not \emph{if}-clauses, can occur as complements of prepositions. Since there is ``spec-head agreement'' within \emph{whether}-clauses, C-heads are spelled out with their complements. Therefore, they are spelled out before prepositions which take them are, with no violations of Distinctness. \emph{If}-clauses, on the other hand, send TP to the interface given its structure. When P selects CP, then, C and P belong to the same Spell-Out domain and cause a violation of Distinctness. (\ref{aranoP-whether-if}) shows that the prediction is borne out:
@@ -387,7 +387,7 @@ he has somone seen but I know not \phantom{\{}who \phantom{|*}who if \phantom{|*
 \draw [overlay, thick] (p1) to[out=90, in=180] (p2);    
 \node [right=-0.5em of p2] {$\rightarrow$ Spell-Out/$\varnothing$};
 \end{forest}}
-{\caption{\color{red}Please provide a caption\label{aranostructure sluice}}}
+{\caption{Sluicing in the standard analysis\label{aranostructure sluice}}}
 \ffigbox{\begin{forest}
 [CP [who$_{\mathrm{2}}$]  [\Xbar{C}, name=yp    [C [has$_{\mathrm{1}}$]]     [TP [Max t$_{\mathrm{1}}$ invited t$_{\mathrm{2}}$, roof]]]]
 \node [left=0.25em of yp](p1){}; 
@@ -395,7 +395,7 @@ he has somone seen but I know not \phantom{\{}who \phantom{|*}who if \phantom{|*
 \draw [overlay, thick] (p1) to[out=90, in=180] (p2);    
 \node [right=-0.5em of p2] {$\rightarrow$ Spell-Out/$\varnothing$};
 \end{forest}}
-        {\caption{\color{red}Please provide a caption\label{aranomy structure sluice}}}
+        {\caption{Sluicing in the proposed analysis\label{aranomy structure sluice}}}
 \end{floatrow}
 \end{figure}
 

@@ -193,17 +193,17 @@ While a precise analysis explaining the range of such effects awaits future rese
 Relevant for the discussion of nominalizations moving forward is the proposal that lexical restructuring involves the selection of VoiceP by a restructuring verb (\citealt{wurmbrand2015,WurmbrandShimamura2017}), rather than the selection of a bare VP (e.g., \citealt{wurmbrand2001,Wurmbrand2004}).
 This proposal is motivated by languages that show a variety of effects of Voice in restructuring enivronments.\footnote{While voice distinctions play a large role here, Washo lacks a passive (\citealt{jacobsen1979}).} I briefly summarize their approach and show how it extends to Washo. 
 
-Adopting the proposal that (causative) $v$ co-occurs with Voice within a split-voice domain (i.a. \citealt{bowers2002,folliharley2005,alexiadouetal2006,marantz2008}),  \citet{WurmbrandShimamura2017} offer the following derivation of a matrix clause with active voice (\ref{haninkvoice3}). In this structure, the Voice head introduces the agent and bears both agent and accusative case features, while v carries transitivity information. The valuation of interpretable $\varphi$-features as well as feature sharing between the DP argument and Voice corresponds to theta-assignment.
+Adopting the proposal that (causative) $v$ co-occurs with Voice within a split-voice domain (i.a. \citealt{bowers2002,folliharley2005,alexiadouetal2006,marantz2008}),  \citet{WurmbrandShimamura2017} offer the following derivation of a matrix clause with active voice (\figref{haninkvoice3}). In this structure, the Voice head introduces the agent and bears both agent and accusative case features, while v carries transitivity information. The valuation of interpretable $\varphi$-features as well as feature sharing between the DP argument and Voice corresponds to theta-assignment.
  
- \ea \label{haninkvoice3}
+\begin{figure}
+\caption{\label{haninkvoice3}Feature sharing between DP and Voice \citep{WurmbrandShimamura2017}}
 \begin{tikzpicture}[baseline]
 \tikzset{level distance=22pt,sibling distance=15pt}
 %\tikzset{level 1/.style={sibling distance=-125pt}}
  \Tree [.VoiceP \qroof{{\itshape i}$\varphi$: val}.DP  [.Voice$^\prime$ [.Voice\\{\scshape agent, acc}\\{{\itshape i}$\varphi$:\underline{val}} ][.vP [.v\\{\scshape tr/in, (caus)} ] \qroof{$\dots$}.VP ]] ]
  \draw[semithick,dashed,*-*] (-2,-2.25)..controls +(south east:1) and +(south west:1)..(.35,-3.15);
   \end{tikzpicture}
-
-\z 
+\end{figure}
 
 \citet{WurmbrandShimamura2017}  adopt moreover a valuation approach to Agree (\citealt{pesetskytorrego2007}), formulated in (\ref{haninkreverse}) as Reverse Agree, which accounts for the downward valuation of the agent's features onto Voice.
 
@@ -234,7 +234,7 @@ water 1/3-be.warm-{\scshape caus}-be.tired.of-{\scshape ind}\\
 
 
 \begin{figure}
-\caption{\color{red}Please provide a caption\label{fig:haninkwarmupstructure}}
+\caption{General schematic for restructuring in Washo\label{fig:haninkwarmupstructure}}
 \begin{tikzpicture}
 \tikzset{level distance=22pt,sibling distance=15pt}
 \tikzset{level 1/.style={sibling distance=-125pt}}
@@ -314,15 +314,15 @@ I now turn to the predictions for restructuring. Beginning with functional restr
 \glt `one who doesn't stop singing'} \label{haninknotsing}
 \z
 
-The availability of functional restructuring follows straightforwardly from the fact these nominalizations may contain functional layers such as AspP. This is schematized in (\ref{haninksubjectfunctional}) for the example in 
-(\ref{haninknotsing}) (shown without negation):\footnote{Note that the presence of PossP in these structures is due to the fact that the prefix {\itshape t'-/d\textsuperscript{e}-} is not an invariant nominalizer, but in fact a form of possessor agreement that appears with covert third person possessors. I do not go into this any further here due, but see \citet{hanink2020}.}
+The availability of functional restructuring follows straightforwardly from the fact these nominalizations may contain functional layers such as AspP. This is schematized in \figref{haninksubjectfunctional} for the example in (\ref{haninknotsing}) (shown without negation):\footnote{Note that the presence of PossP in these structures is due to the fact that the prefix {\itshape t'-/d\textsuperscript{e}-} is not an invariant nominalizer, but in fact a form of possessor agreement that appears with covert third person possessors. I do not go into this any further here due, but see \citet{hanink2020}.}
 
-\ea \label{haninksubjectfunctional}
+\begin{figure}
+\caption{Functional restructuring in subject nominalizations\label{haninksubjectfunctional}}
 \begin{tikzpicture}[baseline]
 \tikzset{level distance=22pt,sibling distance=15pt}
  \Tree [.PossP [.AspP \qroof{{\scshape pro} \itshape íšɨm}.VoiceP [.Asp\\{\itshape -íwe} ] ] [.Poss\\{\itshape t'-} ] ] \node (c) at (-4.5,-1.05) {{\itshape  Height of nominalization $\rightarrow$}};
    \end{tikzpicture}
- \z 
+ \end{figure}
  
 Turning to lexical restructuring, the prediction is specific to VoiceP. On the account presented in \sectref{haninksec:agent}, lexical restructuring requires agent sharing across Voice heads; the height of nominalization must therefore be at least VoiceP. We saw above that subject nominalizations do involve VoiceP as well as a projected subject, leading to the prediction that restructuring should be possible. This is again borne out, as demonstrated in (\ref{haninknoteat}) with the lexical verb {\itshape -gaʔlám} `like': 
 
@@ -334,7 +334,7 @@ Turning to lexical restructuring, the prediction is specific to VoiceP. On the a
 
 
 \begin{figure}
-\caption{\color{red}Please provide a caption\label{fig:haninksubjectstructure}}
+\caption{Lexical restructuring in subject nominalizations\label{fig:haninksubjectstructure}}
 \begin{tikzpicture}
 \tikzset{level distance=22pt,sibling distance=15pt}
 \tikzset{level 1/.style={sibling distance=-20pt}}
@@ -413,17 +413,18 @@ The treatment of {\itshape d-}nominalizations as root nominalizations rather tha
 \textit{\textsc{nmlz}}-drink\\
 \glt `water' ({\itshape not} `(a) drink') \label{haninkwater}
 \z
-I therefore propose that the nominalizations in (\ref{haninkinternal}) have the structure in (\ref{haninkdstructure}).
+I therefore propose that the nominalizations in (\ref{haninkinternal}) have the structure in \figref{haninkdstructure}.
 
-\ea \label{haninkdstructure}
+\begin{figure}
+\caption{\label{haninkdstructure}Unexpressed theme nominalizations}
 \begin{tikzpicture}[baseline]
 \tikzset{level distance=22pt,sibling distance=15pt}
  \Tree [.nP  [.$\sqrt{\textit{emlu}}$ ] [.n\\{\itshape d-} ] ]
   \node (c) at (-3.5,-1) {{\itshape Height of nominalization $\rightarrow$}};
    \end{tikzpicture}
- \z 
+ \end{figure}
  
-Relevant for our purposes is that neither functional nor lexical restructuring is ever possible in this type of nominalization (\ref{haninknor}), unlike in the deverbal nominalizations described in the previous subsections.  This fact is immediately obvious if  {\itshape d-}nominalizations are root nominalizations, and therefore do not in fact project any verbal structure (\ref{haninkdstructure}) despite their superficially deverbal appearance.
+Relevant for our purposes is that neither functional nor lexical restructuring is ever possible in this type of nominalization (\ref{haninknor}), unlike in the deverbal nominalizations described in the previous subsections.  This fact is immediately obvious if  {\itshape d-}nominalizations are root nominalizations, and therefore do not in fact project any verbal structure (\figref{haninkdstructure}) despite their superficially deverbal appearance.
 
 \ea No restructuring in unexpressed theme nominalizations\label{haninknor}
 \ea[*]{\gll d-émlu-gaʔlám\\
@@ -489,7 +490,7 @@ Further, as with subject nominalizations, there is again evidence that AspP is a
 Based on these characteristics, I adopt the structure in \figref{fig:haninkgerundstructure} for gerunds in Washo, building on \citet{kratzer1996}.\footnote{I assume again here that these nominalizations involve PossP, on the assumption that the agreement is in fact a form of agreement triggered by Poss, rather than T. Possessor agreement and verbal agreement are identical in almost all cases; I unfortunately do not have available the relevant data that might distinguish them. Note also that the case of the possessor is nominative/unmarked; the absence of case marking on the gerund's subject is therefore not surprising. See e.g., \citet{pires2007} for tests distinguishing clausal gerunds (treated as TPs) from poss-{\itshape ing} nominalizations (see also \citealt{chomsky1970,abney1987}). Fieldwork/research is ongoing.} 
 
 \begin{figure}
-\caption{\color{red}Please provide a caption\label{fig:haninkgerundstructure}}
+\caption{General schematic for gerunds in Washo\label{fig:haninkgerundstructure}}
 \begin{tikzpicture}
 \tikzset{level distance=22pt,sibling distance=10pt}
 \tikzset{level 2/.style={sibling distance=0pt}}

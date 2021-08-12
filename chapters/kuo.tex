@@ -371,7 +371,7 @@ So far, we have seen that there are different applicative GEIs in Mandarin Chine
 Employing the cartographic approach (i.e. \citealt{rizzi1997} and \citealt{cinque1999} and many others), \citet{Tsai2015a} proposes that the syntactic domains across which Chinese modals are distributed correspond to three syntactic layers, as is illustrated in \figref{kuo20}.
 
 \begin{figure}
-\caption{\color{red}Please provide a caption\label{kuo20}}
+\caption{Chinese modals and their corresponding syntactic layers\label{kuo20}}
 \includegraphics[align=t,width=11.5cm]{figures/tree2.jpg}
 \end{figure}
 
@@ -451,9 +451,34 @@ In their \textit{raising applicative hypothesis}, \citet{Paul&Whitman2010} argue
 However, \citet{Kuo2016} has argued that, although the raised applied Goal NP is expected, the position of the ApplP in (\ref{kuo27}) may not be correct. For example, it is possible to have a high applicative projection and a low applicative projection appearing simultaneously in the same sentence. It would be hard to explain this phenomenon under the \textit{raising applicative hypothesis}. Thus, it seems that we do need two independent projections for the high applicative and the low applicative. Kuo adopts the light applicative projection of \citet{Citko2011}, which is right above VP and serves to host the raised Goal NP in languages such as Spanish and Polish. Note that this light applicative projection only functions as a landing site for the applied Goal NP, so \possciteauthor{Pylkkanen2002} (\citeyear{Pylkkanen2002, Pylkkanen2008}) low applicative projection is maintained under this system. The proposed structure is shown in \figref{kuo28}.
 
 \begin{figure}
-\caption{\color{red}Plesae provide a caption\label{kuo28}}
-\includegraphics[width=9cm]{figures/tree.png}
-\end{figure}
+\caption{Chinese DOC structure proposed by \citet{Kuo2016}\label{kuo28}}
+\begin{forest}
+ [\textit{v}P
+     [Zhangsan]
+     [\textit{v}'
+         [\textit{v}]
+         [\ldots\ldots\\\textit{appl}P,align=center
+             [Lisi\textsubscript{\textsc{goal}},name=goal]
+             [\textit{appl}'
+                 [GEI (\textit{appl})]
+                 [VP
+                     [write]
+                     [ApplLP
+                         [t,name=t]
+                         [ApplL'
+                             [ApplL]
+                             [a letter\textsubscript{\textsc{theme}}]
+                         ]
+                     ]
+                 ]
+             ]
+         ]
+     ]
+ ]
+\draw [-{Triangle[]}] (t) to [bend left, looseness=1.25] (goal.225); 
+\end{forest}
+% % \includegraphics[width=9cm]{figures/tree.png}
+\end{figure}\clearpage
 
 In \figref{kuo28}, the main verb \textit{xie} (`write') undergoes head movement and incorporates with GEI on its way to the \textit{v} head, and the correct word order of the verb cluster can be derived. Moreover, since the Goal NP moves from Spec, ApplLP to Spec, light applP, the correct position of the Goal NP can also be derived via raising to this higher position.\footnote{Both reviewers wonder why the transferring GEI cannot be the realization of the \textit{v} head directly. The fact that the transferring GEI has to be base-generated lower than the \textit{v} head can be seen from the following BA construction with an optional emphatic \textit{gei} (`GEI').
 
