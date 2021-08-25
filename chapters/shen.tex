@@ -725,15 +725,18 @@ As we can see, \REF{shengapAtb:a} is acceptable and \REF{shengapAtb2} is not.
 %how-many Maria read.\textsc{fem} {} books and Jan read.\textsc{masc} {} reviews?\\
 %`How many books did Maria read and how many books did Jan read?'
 
-The structures are illustrated in \figref{shenex16} with English translation.\footnote{The shared verb is assumed to move to a higher node in \citet{Citko:2011}'s proposal. 
+The structures are illustrated in \figref{shenex16:a} and \figref{shenex16:b} with English translation.\footnote{The shared verb is assumed to move to a higher node in \citet{Citko:2011}'s proposal. 
 %Citko2006a,
 Here I kept the verb at the shared position to better illustrate the fact that the verb is shared.}
 In the structure for \REF{shengapAtb:a} in \figref{shenex16:a}, both the pre-nominal modifier and the verb are shared, the sentence is accepted. 
 In \figref{shenex16:b} for \REF{shengapAtb2}, only one of the two shareable elements is shared, i.e.  the pre-nominal modifier \textit{which}, whereas the verb \textit{ordered} which could be shared, is not.
 
+
 \begin{figure}
-\caption{Structures for \REF{shengapAtb:a} and \REF{shengapAtb2}\label{shenex16}}
-\begin{subfigure}[b]{.5\linewidth}\centering\footnotesize
+\footnotesize
+\captionsetup{margin=.05\linewidth}
+\begin{floatrow}
+\ffigbox{
 \begin{forest}
 qtree edges
 [CP
@@ -774,8 +777,9 @@ qtree edges
 	\draw (vp2.south) -- (v1.north);
 	\draw (dp2.south) -- (tj.north);
 \end{forest}
-\caption{\label{shenex16:a}Structure for \REF{shengapAtb:a}}
-\end{subfigure}\begin{subfigure}[b]{.5\linewidth}\centering\footnotesize
+}
+{\caption{\label{shenex16:a}Structure for \REF{shengapAtb:a}}}
+\ffigbox{
 \begin{forest}
 qtree edges
 [CP
@@ -816,8 +820,9 @@ qtree edges
 ]	
 	\draw (dp2.south) -- (tj.north);
 \end{forest}
-\caption{\label{shenex16:b}Structure for \REF{shengapAtb2}}
-\end{subfigure} 
+}
+{\caption{\label{shenex16:b}Structure for \REF{shengapAtb2}}}
+\end{floatrow}
 \end{figure}
 
 The numeration MaxShare correctly rules out the derivation in \figref{shenex16:b}. The numerations of Figures~\ref{shenex16:a} and \ref{shenex16:b} are shown in \REF{shennum}. They contain the same items but the verb \textit{ordered} is selected once in \REF{shennum:a} but twice in \REF{shennum:b}. Thus the numeration in \REF{shennum:b} is ruled out given the more economical numeration in \REF{shennum:a}.
