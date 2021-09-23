@@ -373,7 +373,31 @@ Employing the cartographic approach (i.e. \citealt{rizzi1997} and \citealt{cinqu
 
 \begin{figure}
 \caption{Chinese modals and their corresponding syntactic layers\label{kuo20}}
-\includegraphics[align=t,width=11.5cm]{figures/tree2.jpg}
+\begin{forest}
+		[MP\textsuperscript{Epi}
+		  [epistemic adverb] [M'
+		    [epistemic modal] [TP,before drawing tree={y-=2\baselineskip},l sep*=3,name=TP
+		      [outer subject] [T'
+		        [future tense] [MP\textsuperscript{Deo}
+		          [deontic adverb] [M'
+		            [deontic modal] [\textit{v}P,before drawing tree={y-=2\baselineskip},l sep*=3,name=vP
+		              [inner subject] [\textit{v}'
+		                [\textit{v}] [MP\textsuperscript{Dyn}
+		                  [dynamic modal] [VP ...]
+		                ]
+		              ]
+		            ]
+		          ]
+		        ]
+		      ]
+		    ]
+		  ]
+		]
+	\draw [dashed] (TP.north) +(0,.25cm) -- ++(6.66cm,.25cm) node [above,anchor=south east] {complementizer layer};
+	\draw [dashed] (TP.north) +(0,.25cm) -- ++(-5cm,.25cm);
+	\draw [dashed] (vP.north) +(0,.25cm) -- ++(3.1cm,.25cm) node [above,anchor=south east] {inflectional layer} node [below, anchor=north east] {lexical layer};
+	\draw [dashed] (vP.north) +(0,.25cm) -- ++(-8.55cm,.25cm);
+	\end{forest}
 \end{figure}
 
 In \figref{kuo20}, we can see that the epistemic modal is above TP in the complementizer layer; the deontic modal is between TP and \textit{v}P in the inflectional layer; and the dynamic modal is inside \textit{v}P in the lexical layer. The syntactic layer distribution can be simplified, as in (\ref{kuo21}), with TP and \textit{v}P viewed as layer boundaries.
@@ -421,7 +445,7 @@ If GEI is an applicative GEI in example (\ref{kuo22}), the first applicative pro
     \z
 \z
 
-However, as pointed out by \citet{Paul&Whitman2010}, if the low applicative projection is adopted for example (\ref{kuo22}), the correct word order of the verb cluster cannot be derived, as shown in (\ref{kuo25}).
+However, as pointed out by \citet{Paul&Whitman2010}, if the low applicative projection is adopted for example (\ref{kuo22}), the correct word order of the verb cluster cannot be derived, as shown in (\ref{kuo25}).\largerpage
 
 \ea[*]{
 \label{kuo25}
@@ -503,7 +527,7 @@ Available in the BEI construction (Chinese passive construction) as well, \citet
 %\z
 %As mentioned previously, BA in the BA phrase is proposed to be located in the \textit{v} head. Hence in example (\ref{kuoii}), the transferring GEI can only be base-generated lower than BA in order to form a verb cluster with the main verb. This example therefore shows that the transferring GEI cannot be a direct realization of the \textit{v} head.}
 
-To summarize, in this section I have discussed another kind of applicative GEI in the \textit{v}P domain. This applicative GEI is associated with a ``transfer of possession'' interpretation and involves low and light applicative projections. All the applicative GEIs we have examined so far are summarized in Table \ref{kuotab:1:three}.
+To summarize, in this section I have discussed another kind of applicative GEI in the \textit{v}P domain. This applicative GEI is associated with a ``transfer of possession'' interpretation and involves low and light applicative projections. All the applicative GEIs we have examined so far are summarized in Table \ref{kuotab:1:three}.\largerpage[-1]
 
 \begin{table}
 \caption{Summary of applicative GEIs}
